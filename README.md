@@ -1,7 +1,7 @@
 JavaOS
 ======
 
------Importing Into Netbeans
+Importing Into Netbeans
 -----
 1. Register for GitHub and send me your user name.
 2. Download Netbeans.
@@ -11,7 +11,8 @@ JavaOS
 6. Select master, click next.
 7. Click Finish
 
------Pull Changes-----
+Pull Changes
+-----
 (***Important***) Before each coding session, pull changes to get the latest updates others have made to the project.
 
 1. Right click on the project folder, select Git -> Remote -> Pull
@@ -20,7 +21,8 @@ JavaOS
     ii. Enter GitHub username and password.
 3. Click next, select master, and click finish.
 
------Commit and Push Changes-----
+Commit and Push Changes
+-----
 (***Important***) After each coding session, commit and then push your changes to GitHub.
 
 1. Right click on the project folder, select Git -> Commit...
