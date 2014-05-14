@@ -3,7 +3,7 @@ JavaOS
 
 Importing Into Netbeans
 -----
-1. Register for GitHub and send me your user name.
+1. Register for GitHub.
 2. Download Netbeans.
 3. Open Netbeans. At top, click Team -> Git -> Clone...
 4. Enter https://github.com/badjr/JavaOS.git for repository URL.
