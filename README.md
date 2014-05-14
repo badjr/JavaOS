@@ -1,7 +1,7 @@
 JavaOS
 ======
 
-Based on project described at dl.acm.org/citation.cfm?id=1805734
+Based on project described at http://dl.acm.org/citation.cfm?id=1805734
 
 Importing Into Netbeans
 -----
