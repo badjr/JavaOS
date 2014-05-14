@@ -1,18 +1,24 @@
+/**
+ * Based on code acquired from http://webhost.bridgew.edu/sattar/os.zip.
+ * Modified by Brett Duncan for the operating systems project.
+ */
+
 package main;
 
-
 import java.util.Scanner;
-import minikernel.Disk;
 import minikernel.FastDisk;
 
+/**
+ * Implementation of the shell based on steps provided from
+ * http://webhost.bridgew.edu/sattar/os.zip/hw1-shell.
+ * 
+ * @author Brett
+ */
 public class Main {
 
     public static FastDisk disk;
     
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-//        System.out.println("Hello, world!");
-        disk = new FastDisk(100);
         
         //Outline of your main method:
 
