@@ -1,0 +1,8 @@
+//************** simple test: format, create, read, write, delete, readdir
+/*format
+/*create foo
+/*read foo
+/*write
+/*delete
+/*readdir
+/*quit

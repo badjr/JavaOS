@@ -1,0 +1,12 @@
+SRC = Boot.java Disk.java FastDisk.java FileTester.java Kernel.java Library.java FileSys.java
+
+all: compile run
+
+compile:
+	javac -Xlint:all $(SRC)
+
+run:
+	java -enableassertions Boot 10 FastDisk 100 FileTester test1.script
+
+clean:
+	$(RM) *.class DISK

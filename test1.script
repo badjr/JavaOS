@@ -1,0 +1,81 @@
+//************** simple test: format, create, write, read, readdir
+format
+pwd
+create /junk
+ls /
+write /junk this is file junk
+read /junk
+ls .
+read junk
+writeln junk
+two
+lines
+.
+read junk
+//*************** mkdir, chdir, symlink, readlink
+mkdir dir1
+mkdir dir1/subdir
+ls /
+create dir1/subdir/foo
+cd dir1
+pwd
+ls subdir
+cd subdir
+pwd
+cd ..
+pwd
+writeln subdir/foo
+This is foo
+.
+read subdir/foo
+// Absolute symlink
+ln /dir1/subdir/foo link1
+readlink link1
+read link1
+readlink /dir1/link1
+read /dir1/link1
+// Relative symlink
+ln ../dir1 link2
+readlink link2
+ls ../dir1
+ls link2
+ls link2/subdir
+read link2/subdir/foo
+read /dir1/link2/subdir/foo
+//**************** rmdir delete
+ls .
+rmdir subdir
+rm subdir/foo
+rmdir subdir
+rm link1
+ls
+pwd
+//**************** Examples from the FAQ
+
+//Q9
+format
+mkdir /dir
+cd /dir
+pwd
+rmdir /dir
+cd ..
+rmdir /dir
+
+//Q10
+format
+mkdir /foo
+create /foo/bar
+write /foo/bar This is file /foo/bar
+read /foo/bar
+read foo/bar
+read foo/bar/
+read foo//bar
+read //foo///bar////
+
+//Q11
+format
+mkdir /tmp
+cd /tmp
+ln /tmp/bad bad
+cd bad
+rm bad
