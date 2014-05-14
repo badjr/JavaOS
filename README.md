@@ -1,7 +1,8 @@
 JavaOS
 ======
 
------Importing Into Netbeans-----
+-----Importing Into Netbeans
+-----
 1. Register for GitHub and send me your user name.
 2. Download Netbeans.
 3. Open Netbeans. At top, click Team -> Git -> Clone...
