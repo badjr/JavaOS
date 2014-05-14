@@ -35,4 +35,4 @@ Commit and Push Changes
 5. Click next, select master, click next.
 6. Select master, and click finish.
 
-Note: Mush commit before pushing, otherwise the project doesn't get updated.
+*Note*: Mush commit before pushing, otherwise the project doesn't get updated.
