@@ -1,6 +1,8 @@
 JavaOS
 ======
 
+Based on project described at http://dl.acm.org/citation.cfm?id=1805734
+
 Importing Into Netbeans
 -----
 1. Register for GitHub.
