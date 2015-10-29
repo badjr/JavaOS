@@ -1,7 +1,7 @@
 JavaOS
 ======
 
-Based on project described at http://dl.acm.org/citation.cfm?id=1805734
+This is a simulation of an operating system in Java. It is based on the paper at http://dl.acm.org/citation.cfm?id=1805734. It is meant to be educational, allowing students to implement core components of an operating system in Java, such as the shell, scheduling algorithms, or a file system, as a supplement to their learning of operating systems concepts. Starter code is located at http://pages.cs.wisc.edu/~solomon/cs537/project5/.
 
 Importing Into Netbeans
 -----
